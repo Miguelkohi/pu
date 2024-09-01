@@ -1,0 +1,159 @@
+.loginadm {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url();                   //Por algum motivo o background-image não ta achando a imagem
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .container {
+    position: relative;
+    width: 50%;
+    background-color: #fff;
+  
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .login-box {
+    display: flex;
+    gap: 90px;
+  
+    background-color: #ffffff;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 10px;    
+  }
+  
+  .nav {
+    position: absolute;
+  
+    top: 10px;
+    right: 10px;
+  
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+    h4 {
+        color: #fff;
+        padding-right: 430px;
+        margin-top: 35px;
+    }
+  
+    .back-button {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+  
+        background-color: transparent;
+        border: 1px solid #FF8D00;
+        border-radius: 8px;
+        
+        padding: 10px 25px;
+        margin-right: 25px;
+        margin-top: 25px;
+    }
+  
+  
+    .back-button:hover {
+        background-color: #FF8D00;
+        color: #fff;
+    }
+    
+    .back-button {
+        background-color: transparent;
+        color: #FF8D00;
+    }
+  }
+  
+  .visual {
+    .logo {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+  
+    h2 {
+        margin-top: -10px;
+        margin-bottom: 20px;
+        color: #000000;
+        font-size: 20px;
+        }
+        
+    .linha {
+            width: 200px;
+            align-items: center;
+            height: 5px;
+            margin-left: -36px;
+            margin-bottom: 20px;
+            margin-top: -20px;
+            background-color: #FF8D00;
+        }
+  
+    .logo {
+        width: 150px;
+    }
+  
+  }
+
+  .barInput {
+
+    .input-group {
+        margin-bottom: 45px;
+  
+        img {  
+          border-radius: 30px;
+          width: 45px;
+          margin-right: 10px
+        }
+    }
+  
+    .input-group input {
+        width: 200px;
+        padding: 12px;
+        border: 1px solid #383838;
+        border-radius: 2px;
+        outline: none;
+        font-size: 14px;
+  
+    }
+        
+    .btn {
+        width: 65%;
+        padding: 14px;
+        margin-top: -10px;
+        margin-left: 30px;
+    
+        border: none;
+        border-radius: 8px;
+        background-color: #FF8D00;
+        color: #fff;
+    
+        cursor: pointer; 
+        font-size: 16px;
+        box-shadow: 5px 5px 5px 0px #6b6b6b;
+        transition: transform .2s, background-color .2s; 
+    }
+        
+    .btn:hover {
+        background-color: #FF8D00;
+        transform: scale(1.05);
+    }
+  
+  }
+
+}
+
+
+
+
+
+
+
+
